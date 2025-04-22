@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
-import Mortgage from "../artifacts/contracts/Mortgage.sol/Mortgage.json";
+import MortgageArtifact from "../artifacts/contracts/Mortgage.sol/Mortgage.json";
 
 // Make sure this address is correct for your deployment
 const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";

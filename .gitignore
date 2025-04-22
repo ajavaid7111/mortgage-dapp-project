@@ -1,0 +1,57 @@
+# Environment variables (IMPORTANT!)
+.env
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Hardhat cache and artifacts (optional: keep frontend/src/artifacts if needed)
+cache/
+/artifacts/
+# frontend/src/artifacts/ # Uncomment this line if you DON'T want to commit the frontend ABI files
+
+# Build output (if you have a separate build step)
+dist/
+frontend/dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
